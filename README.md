@@ -111,7 +111,7 @@ GET /products?limit=10&cursorCreatedAt=2026-06-25T06:27:37.698Z&cursorId=157578
 ### Clone Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/soham1006/product-browser-api
 cd product-browser-api
 ```
 

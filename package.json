@@ -3,11 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "dev": "ts-node-dev src/server.ts",
-    "test-db": "ts-node-dev src/test-db.ts",
-    "seed":"ts-node-dev src/scripts/seed.ts"
-  },
+ "scripts": {
+  "dev": "ts-node-dev src/server.ts",
+  "test-db": "ts-node-dev src/test-db.ts",
+  "seed": "ts-node-dev src/scripts/seed.ts",
+  "build": "tsc",
+  "start": "node dist/server.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
